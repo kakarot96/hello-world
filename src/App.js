@@ -6,11 +6,13 @@ import Welcome from './Components/Welcome'
 import Message from './Components/Message'
 import Counter from './Components/Counter'
 import EventBind from './Components/EventBind';
+import ParentComponent from './Components/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      <EventBind/>
+      <ParentComponent/>
+      {/* <EventBind/> */}
       {/* <Message/> */}
       {/* <Counter/> */}
       {/* <Greet/>
