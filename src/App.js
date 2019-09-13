@@ -8,11 +8,13 @@ import Counter from './Components/Counter'
 import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
 import NameList from './Components/NameList';
+import LifeCycleA from './Components/LifeCycleA';
 
 function App() {
   return (
     <div className="App">
-      <NameList/>
+      <LifeCycleA/>
+      {/* <NameList/> */}
       {/* <ParentComponent/> */}
       {/* <EventBind/> */}
       {/* <Message/> */}
