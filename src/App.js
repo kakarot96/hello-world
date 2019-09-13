@@ -9,11 +9,16 @@ import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
 import NameList from './Components/NameList';
 import LifeCycleA from './Components/LifeCycleA';
+import ClickCounter from './Components/ClickCounter';
+import HoverCounte from './Components/HoverCounter';
+import HoverCounter from './Components/HoverCounter';
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleA/>
+      <ClickCounter/>
+      <HoverCounter/>
+      {/* <LifeCycleA/> */}
       {/* <NameList/> */}
       {/* <ParentComponent/> */}
       {/* <EventBind/> */}
